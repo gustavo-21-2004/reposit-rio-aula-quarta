@@ -1,9 +1,11 @@
 print("ESCOLHA DE AR CONDICIONADO")
-te = int(input(Qual o tamanho da sala ou escritório?))
-pd = int(input(Qual a altura do pé direito? (Distância do solo ao teto)))
-x = int(input(Quantas portas e janelas tem no ambiente?))
-x = int(input(As janelas recebem sol direto? Da manhã ou da tarde? Tem cortina nas
-janelas? Os vidros ficam à sombra?))
-x = int(input(Quantas pessoas trabalham no ambiente?))
-x = int(input(Os aparelhos elétricos trabalham em regime contínuo; qual a capacidade
-(potência) de cada um?))
+print("Qual o tamanho da sala ou escritório?")
+Comprimento =float(input("Comprimento da sala"))
+Largura =float(input("Largura da sala"))
+Altura =float(input("Altura da sala"))
+Volume =Comprimento*Largura*Altura
+print("Quantas portas e janelas tem no ambiente?")
+Njanelas =int(input("Número de janelas da sala"))
+NPortas =int(input("Número de Portas da sala"))
+x = int(input("Quantas pessoas trabalham no ambiente?"))
+x = int(input("Os aparelhos elétricos trabalham em regime contínuo; qual a capacidade (potência) de cada um?"))
